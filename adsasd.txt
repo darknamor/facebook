@@ -1,0 +1,2 @@
+yum install wget para poder instalar esta herramienta y así poder descargar EPEL desde los servidores de fedora.
+wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm para proceder a la descarga de EPEL.
