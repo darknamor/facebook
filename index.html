@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Inicio</title>
+        <link rel="stylesheet" href="css/principal.css">
+        <script src="js/funciones.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!-- Encabezado-->
+        <div id="cnt_header">
+            <div id="cnt_logo">
+                <img src="img/logo-facebook_183x50.png">
+            </div>
+            <div id="cnt_form_login">
+        <!-- Tabla para formularion de login -->
+        <form name="frm_login" action="login.php" method="POST">
+        <table >
+            <tr>
+                <td><label class="textoFormularioLogin"> Email or Phone</label></td>
+                <td><label class="textoFormularioLogin"> Password</label></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="cajasTextoGenericas" name="txt_email"> </td>
+                <td><input type="password" class="cajasTextoGenericas"  name="txt_clave"> </td>
+                <td><input type="submit" class="botonGenericoAzul" value="Log in" ></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a id="linkLogin" href="http://www.inacap.cl"> Forgot Account? </a> </td>
+                <td></td>
+            </tr>
+
+        </table>
+       </form>
+            </div>
+        </div>
+        <!-- Cuerpo -->
+        <div id="cnt_body">
+            <div id="cnt_info">
+                <!-- Contenido de sección izquierda-->
+                <div id="cnt_info_title">Connect with friends and world around you on Facebook</div>
+                <div id="cnt_info_photos" class="cntInfoElements">
+                    <img src="img/photos_56x56.png" class="imgAlignMiddle"> <b>See photos and updates</b> from friends in News Feed
+                </div>
+                <div id="cnt_info_share" class="cntInfoElements">
+                    <img src="img/share_56x56.png" class="imgAlignMiddle"> <b>Share what's new</b> in your life on your Timeline
+                </div>
+                <div id="cnt_info_find_more" class="cntInfoElements">
+                    <img src="img/find_56x56.png" class="imgAlignMiddle"> <b>Find More</b> of what you're looking with Facebook Search 
+                </div>
+            </div>
+            <div id="cnt_form_signup">Aqui a el registro</div>
+        </div>
+        <!-- Pie de página-->
+        <div id="cnt_footer">
+            Aqui va el pie de página
+        </div>
+    </body>
+</html>

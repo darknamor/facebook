@@ -1,0 +1,126 @@
+body {
+    background-color: #e9ebed;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cnt_top {
+    background-color :#4267B2;
+    height: 45px;
+    padding-top: 10px;
+}
+#cnt_left {
+    float:left;
+
+    width: 33%;
+    height: 300px;
+
+}
+#cnt_center {
+   /* background-color: aqua;*/
+    width: 33%;
+    float: left;
+    
+}
+#cnt_right {
+    float: left;
+    /*background-color: blue;*/
+    width: 33%;
+    height: 700px;
+    margin-left: 5px;
+}
+#cnt_links {
+
+    width: 200px;
+    float: right;
+    height: 100%;
+    font-size: 13px;
+    
+}
+#cnt_stories {
+    background-color : rgb(66, 178, 92);
+    width: 50%;
+    height: 40px;
+    
+}
+#cnt_ads {
+    background-color: lightsalmon;
+    width: 50%;
+    height: 100px;
+}
+.imgAlignMiddle {
+    vertical-align: middle;
+}
+.imgAlignTop {
+    vertical-align: top
+}
+#cnt_top_left {
+    float: left;
+    
+    margin-left: 20%;
+
+}
+#cnt_top_right {
+   
+    float: left;
+    margin-left: 100px;
+    color:white;
+    font-weight: 300;
+    font-size: 13px;
+   
+
+}
+#cnt_top_right_search_friends {
+    margin-top: 7px;
+    margin-right: 12px;
+}
+#cnt_top_right_name {
+    margin-top: 7px;
+    margin-right: 12px;
+}
+#cnt_top_right_home {
+    margin-top: 7px;
+    margin-right: 12px;
+}
+#txt_search {
+    width: 350px;
+    height: 30px;
+}
+.topRightElements{
+
+    float: left;
+    padding-left: 5px;
+    
+}
+.post {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    background-color: white;
+    padding: 4px;
+}
+.postear {
+    margin-left: 3px;
+    align-content: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 140px;
+    width: 450px;   
+}
+.postearBtn {
+    float: right;
+    color: #FFF;
+    background-color: #395697;  
+    box-shadow: 0 0 0 0 rgba(145,153,161,0);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    font-family: sans-serif;
+    line-height: 1.15384615;
+    cursor: pointer;
+    border-color: rgba(0,89,153,0);
+    text-decoration: none;
+    text-align: center !important;
+    font-size: 13px;
+}
