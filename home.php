@@ -86,8 +86,18 @@ $cantidad_avisos = $obj_publicidad->obtenerNumeroAvisos();
                         <div id="cnt_post_likes_<?php echo $i; ?>"></div>
                         <!-- Contenedor para opciones de publicación-->
                         <div id="cnt_post_options_<?php echo $i; ?>">
-                        <img src="img/like_button_gray_25x23.png" class="imgAlignMiddle" > 
-                        <a href="#" onclick="setLike(<?php echo $i; ?>);">Me gusta</a>
+                            <img src="img/like_button_gray_25x23.png" class="imgAlignMiddle" > 
+                            <a href="#" onclick="setLike(<?php echo $i; ?>);">Me gusta</a>
+                        </div>
+                        <div>                            
+                            <?php 
+                                //
+                                $arrComentariosPublicacion = $obj_post->obtenerComentariosPublicaciones($arrPublicacionesUsuario[$i][0]);
+                                $cantidad_comentarios = count($arrComentariosPublicacion);
+                                for($j=0;$j<$cantidad_comentarios;$j++){
+                                    echo 'Comentario: '.$arrComentariosPublicacion[$j][1].' Fecha: '.$arrComentariosPublicacion[$j][2].'<br>';
+                                } 
+                            ?>
                         </div>
                     </div>
                 <?php }?>
@@ -95,7 +105,7 @@ $cantidad_avisos = $obj_publicidad->obtenerNumeroAvisos();
             </div>
         </div>
         <div id="cnt_right">
-            <div id="cnt_stories">stories</div>
+            <div id="cnt_stories"><a href="../facebook/clases/CerrarSession.class.php">Salir</a></div>
             <div id="cnt_ads">
                 <?php for($i=0;$i<$cantidad_avisos;$i++){  ?>
                     <div id="cnt_post_<?php echo $i; ?>" class="ad">
